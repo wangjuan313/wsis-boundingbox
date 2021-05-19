@@ -55,7 +55,7 @@ Please consider citing our paper in your publications if the project helps your 
 ```
 @inproceedings{wang2021,
   title     =  {Bounding Box Tightness Prior for Weakly Supervised Image Segmentation},
-  author    =  {Juan Wang, Bin Xia},
+  author    =  {Wang, Juan and Xia, Bin},
   booktitle =  {24th International Conference on Medical Image Computing & Computer Assisted Intervention},
   year      =  {2021}
 }
