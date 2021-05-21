@@ -1,3 +1,4 @@
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -7,7 +8,7 @@ def conv_block_1(in_dim, out_dim):
     model = nn.Sequential(
         nn.Conv2d(in_dim, out_dim, kernel_size=1),
         nn.BatchNorm2d(out_dim),
-        nn.ReLU(),
+        nn.PReLU(),
     )
     return model
 
