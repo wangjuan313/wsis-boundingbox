@@ -14,8 +14,8 @@ Run the following codes for preprocessing:
 
 ```bash
 # trainig and valid subsets for promise12 dataset
-python preprocess/slice_promise_train.py
-python preprocess/slice_promise_valid.py
+python preprocess/slice_promise_train_val.py
+python preprocess/slice_promise_augment_train_val.py
 
 # trainig and valid subsets for atlas dataset
 python preprocess/slice_atlas.py
@@ -65,5 +65,6 @@ Please consider citing our paper in your publications if the project helps your 
 
 ## Logs
 1. 3/16/2022: a bug in _C_promise.py was fixed such that the training subset was used for training.
+2. 3/17/2022: add data augmentation script for promise12 dataset
 
 
