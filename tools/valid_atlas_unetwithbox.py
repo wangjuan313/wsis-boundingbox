@@ -129,10 +129,7 @@ if __name__ == "__main__":
     train_params       = _C['train_params']
     data_params        = _C['data_params']
     net_params         = _C['net_params']
-    anchor_params      = _C['anchor_params']
-    gt_anchor_params   = _C['gt_anchor_params']
     dataset_params     = _C['dataset']
-    nms_params         = _C['nms_params']
     save_params        = _C['save_params']
     print('workers = %d' % data_params['workers'])
 

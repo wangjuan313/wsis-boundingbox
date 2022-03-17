@@ -1,6 +1,6 @@
 # Bounding Box Tightness Prior for Weakly Supervised Image Segmentation
 
-This project hosts the codes for the implementation of [Bounding Box Tightness Prior for Weakly Supervised Image Segmentation]() (MICCAI 2021).
+This project hosts the codes for the implementation of the paper **Bounding Box Tightness Prior for Weakly Supervised Image Segmentation** (MICCAI 2021) [[miccai](https://link.springer.com/chapter/10.1007/978-3-030-87196-3_49)] [[arxiv](https://arxiv.org/abs/2110.00934)].
 
 
 
@@ -53,13 +53,17 @@ python tools/report_atlas_unetwithbox_paper.py
 Please consider citing our paper in your publications if the project helps your research.
 
 ```
-@inproceedings{wang2021,
-  title     =  {Bounding Box Tightness Prior for Weakly Supervised Image Segmentation},
-  author    =  {Wang, Juan and Xia, Bin},
-  booktitle =  {24th International Conference on Medical Image Computing & Computer Assisted Intervention},
-  year      =  {2021}
+@inproceedings{wang2021bounding,
+  title={Bounding Box Tightness Prior for Weakly Supervised Image Segmentation},
+  author={Wang, Juan and Xia, Bin},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={526--536},
+  year={2021},
+  organization={Springer}
 }
 ```
 
+## Logs
+1. 3/16/2022: a bug in _C_promise.py was fixed such that the training subset was used for training.
 
 
